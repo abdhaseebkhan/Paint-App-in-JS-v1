@@ -7,6 +7,7 @@ const HandlePaint = (MainCanvas, Mode) => {
     let PreviousY = null;
     ctx.fillStyle = "#00000090";
     ctx.lineWidth = 10;
+    //
 
     MainCanvas.addEventListener("mousedown",e=>{
         Clicked = true;
